@@ -12,7 +12,7 @@ export default function jsx4() {
 }
 
 function entre(valor, min, max) {
-  if(valor)  {
+  if(valor && valor )  {
       return "Sim"
   } else {
     return "Não"
