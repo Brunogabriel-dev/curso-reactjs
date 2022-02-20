@@ -1,6 +1,6 @@
 export default function jsx4() {
-  const subtitulo = "Estou no JavaScript"
-  
+  const subtitulo = "Estou no JavaScript!"
+
   return (
     <div>
       <h1>Integração JS e JSX</h1>
