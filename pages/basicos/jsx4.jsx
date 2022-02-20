@@ -14,7 +14,7 @@ export default function jsx4() {
 }
 
 function entre(valor, min, max) {
-  if(valor && valor )  {
+  if(valor => min && valor <= max )  {
       return "Sim"
   } else {
     return "Não"
