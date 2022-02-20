@@ -10,3 +10,11 @@ export default function jsx4() {
     </div>
   )
 }
+
+function entre(valor, min, max) {
+  if(valor)  {
+      return "Sim"
+  } else {
+    return "Não"
+  }
+}
