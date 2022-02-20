@@ -15,4 +15,4 @@ export default function lista() {
       <span>10,</span>
     </div>
   )
-}
+};
