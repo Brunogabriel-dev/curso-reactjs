@@ -16,7 +16,9 @@ export default function repeticao2() {
  
   return (
    <div>
-     <table>
+     <table style={{
+       border: "1px solid #000"
+     }}>
        <thead>
          <tr>
            <th>Código</th>
