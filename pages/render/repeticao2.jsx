@@ -14,11 +14,13 @@ export default function repeticao2() {
     })
   }
  
+  const comBorda = {
+    border: "1px solid #000"
+  }
+
   return (
    <div>
-     <table style={{
-       border: "1px solid #000"
-     }}>
+     <table style={comBorda}>
        <thead>
          <tr>
            <th>Código</th>
