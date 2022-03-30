@@ -6,7 +6,7 @@ export default function Pai(props) {
       <h1>Familia {props.familia}</h1>
       <Filho nome="Julia" familia={props.familia}/>
       <Filho nome="Pedro" familia={props.familia}/>
-      <Filho nome="Valentina" {...props} />
+      <Filho {...props} nome="Valentina" />
     </div>  
   )
 }
