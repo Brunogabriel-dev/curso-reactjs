@@ -14,6 +14,12 @@ export default function botao() {
     <div>
       <button onClick={acao1}>Click #01</button>
       <button onClick={acao2}>Click #02</button>
+      <button onClick={function () {
+        console.log("acao3")
+      }}>Click #03</button>
+      <button onClick={() => console.log("acao4")}>
+        Click #04
+      </button>
     </div>
   )
 }
