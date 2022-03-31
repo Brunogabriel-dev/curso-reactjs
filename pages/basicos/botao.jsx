@@ -7,8 +7,9 @@ export default function botao() {
     console.log("acao2")
   }
   
-  
-  
+  function acao5(e) {
+    console.log(e)
+  }
   
   return (
     <div>
@@ -19,6 +20,9 @@ export default function botao() {
       }}>Click #03</button>
       <button onClick={() => console.log("acao4")}>
         Click #04
+      </button>
+      <button onClick={acao5}>
+        Click #05
       </button>
     </div>
   )
