@@ -24,6 +24,12 @@ export default function botao() {
       <button onClick={acao5}>
         Click #05
       </button>
+      <button onClick={e => acao5(e.altKey)}>
+        Click #05 v2
+      </button>
+      <div>
+      <input type="text" onChange={e => console.log(e.target.value)}/>
+      </div>
     </div>
   )
 }
