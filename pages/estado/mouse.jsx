@@ -1,4 +1,7 @@
 export default function mouse() {
+  let x = 0
+  let y = 0
+
   const estilo = {
       display: "flex",
       flexDirection: "column",
@@ -9,10 +12,15 @@ export default function mouse() {
       height: "100vh"
   }
 
+  function quandoMover(ev) {
+    x = ev.clientX
+    y = ev.clientY
+  }
+
   return (
-    <div style={estilo}>
-      <span>Eixo X: ?</span>
-      <span>Eixo Y: ?</span>
+    <div style={estilo} onMouseMove={quandoMover}>
+      <span>Eixo X: {x}</span>
+      <span>Eixo Y: {y}</span>
 
     </div>
   )
