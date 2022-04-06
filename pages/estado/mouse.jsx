@@ -15,6 +15,7 @@ export default function mouse() {
   function quandoMover(ev) {
     x = ev.clientX
     y = ev.clientY
+    console.log('valor alterado')
   }
 
   return (
