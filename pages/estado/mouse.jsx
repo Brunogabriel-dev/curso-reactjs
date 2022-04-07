@@ -1,9 +1,9 @@
 import { useState } from "react"
 
 export default function mouse() {
-const arrayX = useState(0)
-let x = arrayX[0]
-const alterarX = arrayX[1]
+  // React Hooks
+const [x, setX] = useState(0)
+
 
 const arrayY = useState(0)
 let y = arrayY[0]
@@ -23,7 +23,7 @@ const alterarY = arrayY[1]
   }
 
   function quandoMover(ev) {
-    alterarX (ev.clientX)
+    setX(ev.clientX)
     alterarY (ev.clientY)
 
   }
