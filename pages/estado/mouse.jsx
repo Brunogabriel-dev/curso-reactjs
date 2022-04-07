@@ -1,4 +1,11 @@
+import { useState } from "react"
+
 export default function mouse() {
+const arrayX = useState(0)
+const X = arrayX[0]
+const alterarX = arrayX[0]
+
+
   let x = 0
   let y = 0
 
