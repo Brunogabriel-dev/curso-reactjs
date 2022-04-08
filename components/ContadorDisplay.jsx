@@ -12,7 +12,7 @@ export default function ContadorDisplay(props) {
       fontSize: "2rem",
       margin: "20px"
     }}>
-
+      {props.numero}
     </div>
   )
 }
