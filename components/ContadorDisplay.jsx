@@ -1,11 +1,16 @@
 export default function ContadorDisplay(props) {
   return (
     <div style={{
-      height: "200px",
-      width: "200px",
-      borderRadius: "100px",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      height: "50px",
+      width: "50px",
+      borderRadius: "25px",
       backgroundColor: "#222",
-      color: "#fff"
+      color: "#fff",
+      fontSize: "2rem",
+      margin: "20px"
     }}>
 
     </div>
