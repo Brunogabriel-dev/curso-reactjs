@@ -6,6 +6,8 @@ export function mega(qtde = 6, numeros = []) {
   if(numeros.length === qtde) {
     return numeros
   }
+
+  const numerosAleatorios = paseInt(Math.random() * 60) + 1
 }
 
 
