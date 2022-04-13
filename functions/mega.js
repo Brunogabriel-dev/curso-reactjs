@@ -8,6 +8,9 @@ export function mega(qtde = 6, numeros = []) {
   }
 
   const numerosAleatorios = paseInt(Math.random() * 60) + 1
+  if(!numeros.includes(numerosAleatorio)) {
+    return mega(qtde, [...numeros])
+  }
 }
 
 
