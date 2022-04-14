@@ -4,14 +4,16 @@ export function mega(qtde = 6, numeros = []) {
   }
 
   if(numeros.length === qtde) {
-    return numeros
+    return numeros.sort((n1, n2) => n1 - n2)
   }
 
-  const numerosAleatorio = paseInt(Math.random() * 60) + 1
-  if(!numeros.includes(numerosAleatorio)) {
-    return mega(qtde, [...numeros])
+  const numeroAleatorio = paseInt(Math.random() * 60) + 1
+  if(!numeros.includes(numeroAleatorio)) {
+    return mega(qtde, [...numeros, numeroAleatorio])
+  } else {
+    return mega(qtde, numeros)
   }
 }
 
 
-console.log(mega())
+console.log(mega(15))
