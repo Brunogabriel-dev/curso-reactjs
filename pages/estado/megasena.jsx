@@ -26,6 +26,7 @@ export default function megasena() {
         {renderizarNumeros()}
       </div>
       <div>
+        <input type="number" min={6} max={20} />
         <button onClick={() => setNumeros(mega())}>
           Gerar Aposta
         </button>
