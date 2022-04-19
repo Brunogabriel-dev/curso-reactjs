@@ -14,6 +14,3 @@ export function mega(qtde = 6, numeros = []) {
     return mega(qtde, numeros)
   }
 }
-
-
-console.log(mega(15))
