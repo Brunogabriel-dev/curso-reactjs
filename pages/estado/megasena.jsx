@@ -1,6 +1,8 @@
-import { useState } from "react/cjs/react.production.min"
+import { useState } from "react"
+import { mega } from "../../functions/mega"
 
 export default function megasena() {
+  
   const [numeros, setNumeros] = useState()
   return (
     <div>
