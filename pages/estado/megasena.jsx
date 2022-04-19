@@ -4,12 +4,12 @@ import { mega } from "../../functions/mega"
 
 export default function megasena() {
 
-  const [numeros, setNumeros] = useState(mega())
+  const [qtde, setQtde] = useState(6)
+  const [numeros, setNumeros] = useState(mega(qtde))
 
 
  function renderizarNumeros() {
-   return numeros.map(
-     numero => <NumeroDisplay key={numero} numero={numero} />)
+   return numeros.map(numero => <NumeroDisplay numero={numero} />)
  }
 
 
@@ -27,7 +27,7 @@ export default function megasena() {
       </div>
       <div>
         <input type="number" min={6} max={20} />
-        <button onClick={() => setNumeros(mega())}>
+        <button onClick={() => setNumeros(mega(qtde))}>
           Gerar Aposta
         </button>
       </div>
