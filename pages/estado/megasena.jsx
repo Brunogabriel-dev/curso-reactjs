@@ -26,7 +26,8 @@ export default function megasena() {
         {renderizarNumeros()}
       </div>
       <div>
-        <input type="number" min={6} max={20} />
+        <input type="number" min={6} max={20} value={qtde}
+         onChange={ev => setQtde(ev.target.value)} />
         <button onClick={() => setNumeros(mega(qtde))}>
           Gerar Aposta
         </button>
