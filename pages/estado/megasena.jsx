@@ -7,15 +7,15 @@ export default function megasena() {
   const [numeros, setNumeros] = useState(mega())
 
 
- function renderNumeros() {
+ function renderizarNumeros() {
    return numeros.map(
      numero => <NumeroDisplay key={numero} numero={numero} />)
  }
 
   return (
-    <div>
+    <div style={{display: "flex"}}>
       <h1>Mega Sena</h1>
-      <div>
+      <div style={{display: "flex"}}>
         {renderizarNumeros()}
       </div>
     </div>
