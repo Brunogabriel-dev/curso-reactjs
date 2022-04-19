@@ -12,13 +12,19 @@ export default function megasena() {
      numero => <NumeroDisplay key={numero} numero={numero} />)
  }
 
+
+
   return (
-    <div style={{display: "flex"}}>
+    <div style={{
+      display: "flex", 
+      flexDirection: "column",
+      alignItems: "center",
+      
+      }}>
       <h1>Mega Sena</h1>
       <div style={{display: "flex"}}>
         {renderizarNumeros()}
       </div>
     </div>
-
   )
 }
