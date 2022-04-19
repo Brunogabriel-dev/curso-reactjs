@@ -25,6 +25,9 @@ export default function megasena() {
       <div style={{display: "flex"}}>
         {renderizarNumeros()}
       </div>
+      <div>
+        <button>Gerar Aposta</button>
+      </div>
     </div>
   )
 }
