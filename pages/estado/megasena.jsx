@@ -8,12 +8,17 @@ export default function megasena() {
 
 
  function renderNumeros() {
-   return numeros.map(n => <NumeroDisplay />)
+   return numeros.map(
+     numero => <NumeroDisplay key={numero} numero={numero} />)
  }
 
   return (
     <div>
       <h1>Mega Sena</h1>
+      <div>
+        {renderizarNumeros()}
+      </div>
     </div>
+
   )
 }
