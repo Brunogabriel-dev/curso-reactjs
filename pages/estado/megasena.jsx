@@ -26,7 +26,9 @@ export default function megasena() {
         {renderizarNumeros()}
       </div>
       <div>
-        <button>Gerar Aposta</button>
+        <button onClick={() => setNumeros(mega())}>
+          Gerar Aposta
+        </button>
       </div>
     </div>
   )
