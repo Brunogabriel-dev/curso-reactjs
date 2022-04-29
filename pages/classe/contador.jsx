@@ -6,6 +6,12 @@ export default class Contador extends Component{
     numero: this.props.valorInicial ?? 0
   }
 
+  inc() {
+    this.setState({
+      numero: this.state.numero
+    })
+  }
+
   render() {
     return (
       <div>
