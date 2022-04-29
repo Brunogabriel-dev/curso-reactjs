@@ -16,8 +16,8 @@ export default class Contador extends Component{
     return (
       <div>
         <h1>Contador (usando Classe)</h1>
-        <h2>{this.props.valorInicial}</h2>
         <h2>{this.state.numero}</h2>
+        <button onClick={() => this.inc()}>+</button>
       </div>
     )
   }
