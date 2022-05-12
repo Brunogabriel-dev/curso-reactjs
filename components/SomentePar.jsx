@@ -3,7 +3,7 @@ export default function SomentePar(props) {
   return (
     <div>
       {numeroPar ?
-      <span>{props.numero}</span> :
+      <span>{}</span> :
       null
       }
     </div>

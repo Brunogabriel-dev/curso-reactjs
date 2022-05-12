@@ -21,7 +21,7 @@ export default class Contador extends Component{
   render() {
     return (
       <div>
-        <h1>Contador (usando Classe)</h1>
+      
         <h2>{this.state.numero}</h2>
         <input type="number" min={1} max={1000}
           value={this.state.passo} 
