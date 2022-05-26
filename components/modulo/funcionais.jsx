@@ -23,3 +23,9 @@ export const Comp4 = () => {
 }
 
 export const Comp5 = () => <h2>Comp #05</h2>
+
+export const Comp6 = () => (
+  <div>
+    <h2>Comp #06</h2>
+  </div>
+)
