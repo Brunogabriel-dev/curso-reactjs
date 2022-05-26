@@ -1,3 +1,5 @@
+import { loadGetInitialProps } from "next/dist/shared/lib/utils"
+
 export function Comp1() {
   return (
     <div>
@@ -24,8 +26,8 @@ export const Comp4 = () => {
 
 export const Comp5 = () => <h2>Comp #05</h2>
 
-export const Comp6 = () => (
+export const Comp6 = props => (
   <div>
-    <h2>Comp #06</h2>
+    <h2>Comp #06 - {props.msg}</h2>
   </div>
 )
