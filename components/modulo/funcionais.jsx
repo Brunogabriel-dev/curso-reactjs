@@ -17,3 +17,7 @@ export default function () {
     </div>
   )
 }
+
+export const Comp4 = props => {
+  return <h2>Comp #04</h2>
+}
