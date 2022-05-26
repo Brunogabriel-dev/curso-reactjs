@@ -18,6 +18,8 @@ export default function () {
   )
 }
 
-export const Comp4 = props => {
+export const Comp4 = () => {
   return <h2>Comp #04</h2>
 }
+
+export const Comp5 = () => <h2>Comp #05</h2>
