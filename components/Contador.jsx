@@ -10,4 +10,4 @@ export default class ContadorPage extends Component {
       </>
     )
   }
-}
+}bbbbbbb
