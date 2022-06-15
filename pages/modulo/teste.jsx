@@ -14,6 +14,3 @@ export default function teste() {
     </div>
   )
 }
-<div>
-  {}
-</div>
