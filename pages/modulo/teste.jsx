@@ -13,4 +13,4 @@ export default function teste() {
       <Comp6 msg="Legal!!!!" />
     </div>
   )
-}
+}ffffff
